@@ -15,7 +15,6 @@ end
 
 def words_five_letters_long(text)
   array = text.split(" ")
-  puts array
   array.grep(/\B\w{5}\B/)
 end
 
